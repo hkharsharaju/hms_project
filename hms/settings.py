@@ -26,7 +26,9 @@ SECRET_KEY = 'ypbx1fbodlc**t$*mh9z^kio17(l$7nvgm%2)fumex-%lemzsc'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://hms-project.onrender.com',  # Add this line
+]
 
 # Application definition
 
